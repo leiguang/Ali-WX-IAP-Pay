@@ -12,14 +12,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+//        RechargeManager.reqRechargeInfo { [weak self] (model) in
+//            if model.isIAP {    // 苹果充值
+//                let vc = RechargeIAPViewController(balance: model.balance, items: model.iapItems)
+//                self?.present(vc, animated: false, completion: nil)
+//            } else {            // 微信、支付宝充值
+//                let vc = RechargeViewController(balance: model.balance, items: model.items)
+//                self?.present(vc, animated: false, completion: nil)
+//            }
+//        }
+        
+        
+        // 点击微信支付
+//        WXApiManager.pay(rechargeMoney)
+        
+        
+        // 点击支付宝支付
+//        AlipayManager.pay(rechargeMoney)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

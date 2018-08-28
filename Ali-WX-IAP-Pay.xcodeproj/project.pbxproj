@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A9B512E2134F5F00013B7E1 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B512B2134F5F00013B7E1 /* Keychain.swift */; };
+		9A9B512F2134F5F00013B7E1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9A9B512C2134F5F00013B7E1 /* LICENSE */; };
+		9A9B51302134F5F00013B7E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A9B512D2134F5F00013B7E1 /* README.md */; };
 		9ACDEE9C2134ECE500EF2BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEE9B2134ECE500EF2BE0 /* AppDelegate.swift */; };
 		9ACDEE9E2134ECE500EF2BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEE9D2134ECE500EF2BE0 /* ViewController.swift */; };
 		9ACDEEA12134ECE500EF2BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEE9F2134ECE500EF2BE0 /* Main.storyboard */; };
 		9ACDEEA32134ECE600EF2BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEA22134ECE600EF2BE0 /* Assets.xcassets */; };
 		9ACDEEA62134ECE600EF2BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEA42134ECE600EF2BE0 /* LaunchScreen.storyboard */; };
+		9ACDEEB42134EEC500EF2BE0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDEEAF2134EEC500EF2BE0 /* libWeChatSDK.a */; };
+		9ACDEEB52134EEC500EF2BE0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEB02134EEC500EF2BE0 /* README.txt */; };
+		9ACDEEB92134EED200EF2BE0 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEB72134EED200EF2BE0 /* AlipaySDK.bundle */; };
+		9ACDEEBA2134EED200EF2BE0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDEEB82134EED200EF2BE0 /* AlipaySDK.framework */; };
+		9ACDEEC02134EEEC00EF2BE0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEBC2134EEEC00EF2BE0 /* LICENSE */; };
+		9ACDEEC12134EEEC00EF2BE0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEEBE2134EEEC00EF2BE0 /* MBProgressHUD.m */; };
+		9ACDEEC22134EEEC00EF2BE0 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEBF2134EEEC00EF2BE0 /* README.mdown */; };
+		9ACDEECB2134EF6B00EF2BE0 /* IAPHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEEC52134EF6B00EF2BE0 /* IAPHud.swift */; };
+		9ACDEECC2134EF6B00EF2BE0 /* IAPKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEEC62134EF6B00EF2BE0 /* IAPKeychain.swift */; };
+		9ACDEECD2134EF6B00EF2BE0 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEEC72134EF6B00EF2BE0 /* IAPManager.swift */; };
+		9ACDEECE2134EF6B00EF2BE0 /* IAPPayKnowPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEEC82134EF6B00EF2BE0 /* IAPPayKnowPopupView.swift */; };
+		9ACDEECF2134EF6B00EF2BE0 /* IAPPayKnowPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEEC92134EF6B00EF2BE0 /* IAPPayKnowPopupView.xib */; };
+		9ACDEED02134EF6B00EF2BE0 /* IAPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEECA2134EF6B00EF2BE0 /* IAPStatus.swift */; };
+		9ACDEED32134EF7800EF2BE0 /* AlipayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEED22134EF7800EF2BE0 /* AlipayManager.swift */; };
+		9ACDEED62134EF7E00EF2BE0 /* WXApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEED52134EF7E00EF2BE0 /* WXApiManager.swift */; };
+		9ACDEEDA2134EF8300EF2BE0 /* PayLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEED82134EF8300EF2BE0 /* PayLoadingView.swift */; };
+		9ACDEEDB2134EF8300EF2BE0 /* PayLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEED92134EF8300EF2BE0 /* PayLoadingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A9B512B2134F5F00013B7E1 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		9A9B512C2134F5F00013B7E1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9A9B512D2134F5F00013B7E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9ACDEE982134ECE500EF2BE0 /* Ali-WX-IAP-Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ali-WX-IAP-Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACDEE9B2134ECE500EF2BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACDEE9D2134ECE500EF2BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,27 @@
 		9ACDEEA22134ECE600EF2BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ACDEEA52134ECE600EF2BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ACDEEA72134ECE600EF2BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACDEEAF2134EEC500EF2BE0 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9ACDEEB02134EEC500EF2BE0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		9ACDEEB12134EEC500EF2BE0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		9ACDEEB22134EEC500EF2BE0 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		9ACDEEB32134EEC500EF2BE0 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		9ACDEEB72134EED200EF2BE0 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		9ACDEEB82134EED200EF2BE0 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		9ACDEEBC2134EEEC00EF2BE0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9ACDEEBD2134EEEC00EF2BE0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9ACDEEBE2134EEEC00EF2BE0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9ACDEEBF2134EEEC00EF2BE0 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		9ACDEEC52134EF6B00EF2BE0 /* IAPHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHud.swift; sourceTree = "<group>"; };
+		9ACDEEC62134EF6B00EF2BE0 /* IAPKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPKeychain.swift; sourceTree = "<group>"; };
+		9ACDEEC72134EF6B00EF2BE0 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		9ACDEEC82134EF6B00EF2BE0 /* IAPPayKnowPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPPayKnowPopupView.swift; sourceTree = "<group>"; };
+		9ACDEEC92134EF6B00EF2BE0 /* IAPPayKnowPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAPPayKnowPopupView.xib; sourceTree = "<group>"; };
+		9ACDEECA2134EF6B00EF2BE0 /* IAPStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPStatus.swift; sourceTree = "<group>"; };
+		9ACDEED22134EF7800EF2BE0 /* AlipayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlipayManager.swift; sourceTree = "<group>"; };
+		9ACDEED52134EF7E00EF2BE0 /* WXApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXApiManager.swift; sourceTree = "<group>"; };
+		9ACDEED82134EF8300EF2BE0 /* PayLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayLoadingView.swift; sourceTree = "<group>"; };
+		9ACDEED92134EF8300EF2BE0 /* PayLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayLoadingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +73,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACDEEB42134EEC500EF2BE0 /* libWeChatSDK.a in Frameworks */,
+				9ACDEEBA2134EED200EF2BE0 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A9B51282134F5F00013B7E1 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				9A9B51292134F5F00013B7E1 /* Lib */,
+				9A9B512C2134F5F00013B7E1 /* LICENSE */,
+				9A9B512D2134F5F00013B7E1 /* README.md */,
+			);
+			name = KeychainAccess;
+			path = "../../../../ieltsbro-ios/src/Pods/KeychainAccess";
+			sourceTree = "<group>";
+		};
+		9A9B51292134F5F00013B7E1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9A9B512A2134F5F00013B7E1 /* KeychainAccess */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		9A9B512A2134F5F00013B7E1 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				9A9B512B2134F5F00013B7E1 /* Keychain.swift */,
+			);
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
 		9ACDEE8F2134ECE500EF2BE0 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +127,8 @@
 		9ACDEE9A2134ECE500EF2BE0 /* Ali-WX-IAP-Pay */ = {
 			isa = PBXGroup;
 			children = (
+				9ACDEEC32134EF5200EF2BE0 /* About Pay */,
+				9ACDEEAD2134EEBA00EF2BE0 /* Vendor */,
 				9ACDEE9B2134ECE500EF2BE0 /* AppDelegate.swift */,
 				9ACDEE9D2134ECE500EF2BE0 /* ViewController.swift */,
 				9ACDEE9F2134ECE500EF2BE0 /* Main.storyboard */,
@@ -62,6 +137,101 @@
 				9ACDEEA72134ECE600EF2BE0 /* Info.plist */,
 			);
 			path = "Ali-WX-IAP-Pay";
+			sourceTree = "<group>";
+		};
+		9ACDEEAD2134EEBA00EF2BE0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9A9B51282134F5F00013B7E1 /* KeychainAccess */,
+				9ACDEEBB2134EEEC00EF2BE0 /* MBProgressHUD */,
+				9ACDEEB62134EED200EF2BE0 /* AlipaySDK_No_UTDID */,
+				9ACDEEAE2134EEC500EF2BE0 /* WechatSDK1.8.2 */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9ACDEEAE2134EEC500EF2BE0 /* WechatSDK1.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEEAF2134EEC500EF2BE0 /* libWeChatSDK.a */,
+				9ACDEEB02134EEC500EF2BE0 /* README.txt */,
+				9ACDEEB12134EEC500EF2BE0 /* WechatAuthSDK.h */,
+				9ACDEEB22134EEC500EF2BE0 /* WXApi.h */,
+				9ACDEEB32134EEC500EF2BE0 /* WXApiObject.h */,
+			);
+			path = WechatSDK1.8.2;
+			sourceTree = "<group>";
+		};
+		9ACDEEB62134EED200EF2BE0 /* AlipaySDK_No_UTDID */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEEB72134EED200EF2BE0 /* AlipaySDK.bundle */,
+				9ACDEEB82134EED200EF2BE0 /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK_No_UTDID;
+			sourceTree = "<group>";
+		};
+		9ACDEEBB2134EEEC00EF2BE0 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEEBC2134EEEC00EF2BE0 /* LICENSE */,
+				9ACDEEBD2134EEEC00EF2BE0 /* MBProgressHUD.h */,
+				9ACDEEBE2134EEEC00EF2BE0 /* MBProgressHUD.m */,
+				9ACDEEBF2134EEEC00EF2BE0 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9ACDEEC32134EF5200EF2BE0 /* About Pay */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEED72134EF8300EF2BE0 /* Pay Loading View */,
+				9ACDEED42134EF7E00EF2BE0 /* Wechat Pay */,
+				9ACDEED12134EF7800EF2BE0 /* Alipay */,
+				9ACDEEC42134EF6B00EF2BE0 /* IAP Pay */,
+			);
+			path = "About Pay";
+			sourceTree = "<group>";
+		};
+		9ACDEEC42134EF6B00EF2BE0 /* IAP Pay */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEEC52134EF6B00EF2BE0 /* IAPHud.swift */,
+				9ACDEEC62134EF6B00EF2BE0 /* IAPKeychain.swift */,
+				9ACDEEC72134EF6B00EF2BE0 /* IAPManager.swift */,
+				9ACDEEC82134EF6B00EF2BE0 /* IAPPayKnowPopupView.swift */,
+				9ACDEEC92134EF6B00EF2BE0 /* IAPPayKnowPopupView.xib */,
+				9ACDEECA2134EF6B00EF2BE0 /* IAPStatus.swift */,
+			);
+			path = "IAP Pay";
+			sourceTree = "<group>";
+		};
+		9ACDEED12134EF7800EF2BE0 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEED22134EF7800EF2BE0 /* AlipayManager.swift */,
+			);
+			name = Alipay;
+			path = "../../../../ieltsbro-ios/src/IeltsBro/Business/Purchase/Alipay";
+			sourceTree = "<group>";
+		};
+		9ACDEED42134EF7E00EF2BE0 /* Wechat Pay */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEED52134EF7E00EF2BE0 /* WXApiManager.swift */,
+			);
+			name = "Wechat Pay";
+			path = "../../../../ieltsbro-ios/src/IeltsBro/Business/Purchase/Wechat Pay";
+			sourceTree = "<group>";
+		};
+		9ACDEED72134EF8300EF2BE0 /* Pay Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDEED82134EF8300EF2BE0 /* PayLoadingView.swift */,
+				9ACDEED92134EF8300EF2BE0 /* PayLoadingView.xib */,
+			);
+			name = "Pay Loading View";
+			path = "../../../../ieltsbro-ios/src/IeltsBro/Business/Purchase/Pay Loading View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +292,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACDEEC02134EEEC00EF2BE0 /* LICENSE in Resources */,
+				9ACDEEB92134EED200EF2BE0 /* AlipaySDK.bundle in Resources */,
+				9ACDEECF2134EF6B00EF2BE0 /* IAPPayKnowPopupView.xib in Resources */,
+				9ACDEEC22134EEEC00EF2BE0 /* README.mdown in Resources */,
+				9A9B512F2134F5F00013B7E1 /* LICENSE in Resources */,
+				9ACDEEDB2134EF8300EF2BE0 /* PayLoadingView.xib in Resources */,
 				9ACDEEA62134ECE600EF2BE0 /* LaunchScreen.storyboard in Resources */,
 				9ACDEEA32134ECE600EF2BE0 /* Assets.xcassets in Resources */,
+				9ACDEEB52134EEC500EF2BE0 /* README.txt in Resources */,
+				9A9B51302134F5F00013B7E1 /* README.md in Resources */,
 				9ACDEEA12134ECE500EF2BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACDEED02134EF6B00EF2BE0 /* IAPStatus.swift in Sources */,
+				9ACDEECD2134EF6B00EF2BE0 /* IAPManager.swift in Sources */,
 				9ACDEE9E2134ECE500EF2BE0 /* ViewController.swift in Sources */,
+				9ACDEEC12134EEEC00EF2BE0 /* MBProgressHUD.m in Sources */,
+				9ACDEEDA2134EF8300EF2BE0 /* PayLoadingView.swift in Sources */,
+				9A9B512E2134F5F00013B7E1 /* Keychain.swift in Sources */,
+				9ACDEECC2134EF6B00EF2BE0 /* IAPKeychain.swift in Sources */,
+				9ACDEED32134EF7800EF2BE0 /* AlipayManager.swift in Sources */,
+				9ACDEECB2134EF6B00EF2BE0 /* IAPHud.swift in Sources */,
+				9ACDEECE2134EF6B00EF2BE0 /* IAPPayKnowPopupView.swift in Sources */,
 				9ACDEE9C2134ECE500EF2BE0 /* AppDelegate.swift in Sources */,
+				9ACDEED62134EF7E00EF2BE0 /* WXApiManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,13 +470,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y83DYJ394;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ali-WX-IAP-Pay/Vendor/AlipaySDK_No_UTDID",
+				);
 				INFOPLIST_FILE = "Ali-WX-IAP-Pay/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ali-WX-IAP-Pay/Vendor/WechatSDK1.8.2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leiguang.Ali-WX-IAP-Pay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/leiguang/Documents/GitHub/Ali-WX-IAP-Pay/Ali-WX-IAP-Pay/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,13 +497,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y83DYJ394;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ali-WX-IAP-Pay/Vendor/AlipaySDK_No_UTDID",
+				);
 				INFOPLIST_FILE = "Ali-WX-IAP-Pay/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ali-WX-IAP-Pay/Vendor/WechatSDK1.8.2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leiguang.Ali-WX-IAP-Pay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/leiguang/Documents/GitHub/Ali-WX-IAP-Pay/Ali-WX-IAP-Pay/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
